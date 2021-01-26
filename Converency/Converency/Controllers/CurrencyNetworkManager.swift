@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-class NetworkManager: ObservableObject {
+class CurrencyNetworkManager: ObservableObject {
     
     @Published var currencyCode: [String] = []
     @Published var exchangePrice: [Double] = []
