@@ -14,9 +14,15 @@ struct ContentView: View {
     var body: some View {
         TabView(selection: $selectedTab,
                 content:  {
-                    BitcoinView().tabItem { Text("Bitcoin") }.tag(1)
+                    BitcoinView().tabItem {
+                        Image(systemName: "bitcoinsign.square.fill")
+                        Text("Bitcoin")
+                    }.tag(0)
                     
-                    CurrencyView().tabItem { Text("Currency") }.tag(2)
+                    CurrencyView().tabItem {
+                        Image(systemName: "dollarsign.square.fill")
+                        Text("Currency")
+                    }.tag(1)
                 })
     }
 }
