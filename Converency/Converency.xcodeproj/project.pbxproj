@@ -15,6 +15,8 @@
 		5C46FA0F25BFCEA600567FCA /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C46FA0E25BFCEA600567FCA /* CurrencyView.swift */; };
 		5C46FA1225BFD23900567FCA /* BitcoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C46FA1125BFD23900567FCA /* BitcoinData.swift */; };
 		5C46FA1525BFD37000567FCA /* BitcoinNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C46FA1425BFD37000567FCA /* BitcoinNetworkManager.swift */; };
+		5CCD212625BFD9C80051F6E4 /* CurrencyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD212525BFD9C80051F6E4 /* CurrencyData.swift */; };
+		5CCD212925BFD9EA0051F6E4 /* CurrencyNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD212825BFD9EA0051F6E4 /* CurrencyNetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		5C46FA0E25BFCEA600567FCA /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
 		5C46FA1125BFD23900567FCA /* BitcoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinData.swift; sourceTree = "<group>"; };
 		5C46FA1425BFD37000567FCA /* BitcoinNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinNetworkManager.swift; sourceTree = "<group>"; };
+		5CCD212525BFD9C80051F6E4 /* CurrencyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyData.swift; sourceTree = "<group>"; };
+		5CCD212825BFD9EA0051F6E4 /* CurrencyNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyNetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				5C46FA1425BFD37000567FCA /* BitcoinNetworkManager.swift */,
+				5CCD212825BFD9EA0051F6E4 /* CurrencyNetworkManager.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				5C46FA1125BFD23900567FCA /* BitcoinData.swift */,
+				5CCD212525BFD9C80051F6E4 /* CurrencyData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -178,8 +184,10 @@
 				5C46FA0C25BFCE1A00567FCA /* BitcoinView.swift in Sources */,
 				5C46FA1225BFD23900567FCA /* BitcoinData.swift in Sources */,
 				5C46FA1525BFD37000567FCA /* BitcoinNetworkManager.swift in Sources */,
+				5CCD212625BFD9C80051F6E4 /* CurrencyData.swift in Sources */,
 				5C46F9FC25BFCB2000567FCA /* ConverencyApp.swift in Sources */,
 				5C46FA0F25BFCEA600567FCA /* CurrencyView.swift in Sources */,
+				5CCD212925BFD9EA0051F6E4 /* CurrencyNetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
