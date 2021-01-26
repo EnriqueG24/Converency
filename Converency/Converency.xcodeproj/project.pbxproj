@@ -11,6 +11,8 @@
 		5C46F9FE25BFCB2000567FCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C46F9FD25BFCB2000567FCA /* ContentView.swift */; };
 		5C46FA0025BFCB2100567FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C46F9FF25BFCB2100567FCA /* Assets.xcassets */; };
 		5C46FA0325BFCB2100567FCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C46FA0225BFCB2100567FCA /* Preview Assets.xcassets */; };
+		5C46FA0C25BFCE1A00567FCA /* BitcoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C46FA0B25BFCE1A00567FCA /* BitcoinView.swift */; };
+		5C46FA0F25BFCEA600567FCA /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C46FA0E25BFCEA600567FCA /* CurrencyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		5C46F9FF25BFCB2100567FCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C46FA0225BFCB2100567FCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C46FA0425BFCB2100567FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C46FA0B25BFCE1A00567FCA /* BitcoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinView.swift; sourceTree = "<group>"; };
+		5C46FA0E25BFCEA600567FCA /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				5C46F9FB25BFCB2000567FCA /* ConverencyApp.swift */,
 				5C46F9FD25BFCB2000567FCA /* ContentView.swift */,
+				5C46FA0B25BFCE1A00567FCA /* BitcoinView.swift */,
+				5C46FA0E25BFCEA600567FCA /* CurrencyView.swift */,
 				5C46F9FF25BFCB2100567FCA /* Assets.xcassets */,
 				5C46FA0425BFCB2100567FCA /* Info.plist */,
 				5C46FA0125BFCB2100567FCA /* Preview Content */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C46F9FE25BFCB2000567FCA /* ContentView.swift in Sources */,
+				5C46FA0C25BFCE1A00567FCA /* BitcoinView.swift in Sources */,
 				5C46F9FC25BFCB2000567FCA /* ConverencyApp.swift in Sources */,
+				5C46FA0F25BFCEA600567FCA /* CurrencyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
