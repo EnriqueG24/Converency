@@ -22,24 +22,28 @@ struct CurrencyView: View {
     }
     
     var body: some View {
-        VStack {
-            Spacer()
-            Text("\(total, specifier: "%.2f")")
-                .font(.system(size: 30))
-            Spacer()
-            TextField("Enter Amount", text: $amount)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-                .keyboardType(.decimalPad)
-                .padding()
-            Picker("", selection: $pickerSelection) {
-                ForEach(0..<currencyNetworkManager.currencyCode.count) {
-                    let currency = currencyNetworkManager.currencyCode[$0]
-                    Text(currency)
+        ZStack {
+            Color("BackgroundBlue")
+                .ignoresSafeArea()
+            VStack {
+                Spacer()
+                Text("\(total, specifier: "%.2f")")
+                    .font(.system(size: 30))
+                Spacer()
+                TextField("Enter Amount", text: $amount)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .keyboardType(.decimalPad)
+                    .padding()
+                Picker("", selection: $pickerSelection) {
+                    ForEach(0..<currencyNetworkManager.currencyCode.count) {
+                        let currency = currencyNetworkManager.currencyCode[$0]
+                        Text(currency)
+                    }
                 }
-            }
-            .id(UUID())
-            .labelsHidden()
-        }.padding()
+                .id(UUID())
+                .labelsHidden()
+            }.padding()
+        }
     }
 }
 
